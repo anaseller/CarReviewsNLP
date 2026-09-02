@@ -95,7 +95,7 @@ summary_ids = summary_model.generate(
 )
 summarized_text = summary_tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
-# Toxicity and regard (с явным указанием module_type или fallback на Hub measurement)
+# Toxicity and regard
 try:
     toxicity_metric = evaluate.load("toxicity", module_type="measurement")
     toxicity_results = toxicity_metric.compute(predictions=[summarized_text])
