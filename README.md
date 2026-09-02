@@ -12,14 +12,14 @@ Automated NLP solution prototyping sentiment classification, translation, questi
 
 ```text
 1. Sentiment Classification:
-Accuracy: 1.0, F1: 1.0[cite: 2]
+Accuracy: 1.0, F1: 1.0
 
 2. Translation & Quality Evaluation:
 BLEU Score: 0.3737
 
 3. Contextual Question Answering:
-Question: "What did he like about the brand?"[cite: 2]
+Question: "What did he like about the brand?"
 QA Answer: "its continuous commitment to durability"
 
 4. Summarization & Safety:
-Max Toxicity Score: 0.000139 (Verified Safe)[cite: 2]
+Max Toxicity Score: 0.000139 (Verified Safe)
