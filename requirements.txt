@@ -1,0 +1,7 @@
+pandas
+torch
+transformers
+scikit-learn
+evaluate
+sentencepiece
+sacremoses

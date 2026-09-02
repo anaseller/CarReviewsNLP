@@ -1,0 +1,19 @@
+==================================================
+Pipeline Execution Output
+==================================================
+
+1. Sentiment Classification:
+Accuracy: 1.0, F1: 1.0[cite: 2]
+
+2. Translation & Quality Evaluation:
+BLEU Score: 0.3737
+Precisions: [0.79, 0.61, 0.47, 0.38]
+Brevity Penalty: 0.6918
+
+3. Contextual Question Answering:
+Question: "What did he like about the brand?"[cite: 2]
+QA Answer: "its continuous commitment to durability"
+
+4. Text Summarization & Safety Validation:
+Summary: "The Nissan Rogue provides the desired SUV experience without burdening me with an exorbitant payment. Handling and styling are great; I have hauled 12 bags of mulch in the back with the seats down and could have held more. The engine delivers strong performance on"
+Max Toxicity Score: 0.000139 (Non-toxic)[cite: 2]
